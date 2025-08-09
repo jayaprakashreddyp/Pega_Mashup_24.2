@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Pega-Codeset-Patch: 
+Operator: Author@SL
+Pega-Codeset-Name: Customer
+ArtifactVersion: 01.01.02
+Pega-Archive-Type: ApplicationBundle
+ArtifactType: application
+Pega-Codeset-Version: 06-01-01
+ArtifactName: TellUsMore
+Name: TellUsMore_010102_20250808T231659_GMT.zip
+Type: Product
+Synchronizable: false
+Product-Creation-Date: 2025-Aug-07 22:00:00
+Engine-Version: 08-24-53
+Export-Date: 2025-Aug-08 23:17:03
+Instance-Count: 2824
+Archive-Type: PegaArchive
+PRPC-Engine: 8.24.52 PRPC-8.24.52-349 ()
+
+Name: FileMetadata
+
