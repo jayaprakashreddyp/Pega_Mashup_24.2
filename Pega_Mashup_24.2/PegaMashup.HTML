@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pega Mashup Test</title>
+  <script src="https://wr4ihgbt.pegace.net/prweb/PRRestService/c11nsvc/v1/pega-embed.js"></script>
+  <style>
+    pega-embed { display: block; width: 100%; height: 600px; }
+  </style>
+</head>
+<body>
+  <pega-embed id='theEmbed' 
+	action='createCase' 
+	caseTypeID='JOrg-CardServ-Work-CreditCardApplication' 
+	themeID='pyWebSelfService' casePage='assignment' 
+	appAlias='card-services' 
+	pegaServerUrl='https://wr4ihgbt.pegace.net/prweb/' 
+	autoReauth='true' 
+	authService='SSO' 
+	deferLoad='true' 
+	clientId='97289190889215015151' 
+	style='width:100%'>
+  </pega-embed>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var embed = document.getElementById("theEmbed");
+      if (embed && typeof embed.load === "function") {
+        embed.load();
+      }
+    });
+  </script>
+</body>
+</html>
